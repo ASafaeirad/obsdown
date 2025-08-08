@@ -21,7 +21,7 @@ Simple, configurable, and transparent countdown timer for streaming overlays and
   - Examples: `font-family=Inter`, `font-family=Press%20Start%202P` (or `Press+Start+2P`).
 
 ### Examples
-- https://asafaeirad.github.io/obsdown/?seconds=300&before=Break&color=ffffff&size=120&font-family=Inter
+- https://asafaeirad.github.io/obsdown/?seconds=300&before=Break&color=333&size=120&font-family=Inter
 - https://asafaeirad.github.io/obsdown/?seconds=600&before=Short%20Break&color=ff4757&size=110&font-family=Inter
 - https://asafaeirad.github.io/obsdown/?seconds=1800&before=Intermission&color=00ffaa&size=160&font-family=Press%20Start%202P
 
