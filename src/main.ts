@@ -32,7 +32,7 @@ function addGoogleFont(fontFamily: string) {
   document.head.appendChild(link);
 }
 
-function applyStyle(element: HTMLElement) {
+function applyStyle() {
   const color = getUrlParam('color');
   if (color && /^([0-9a-fA-F]{6}|[0-9a-fA-F]{3})$/.test(color))
     document.body.style.color = `#${color}`;
@@ -50,7 +50,7 @@ function applyStyle(element: HTMLElement) {
 function startCountdown() {
   const countdown = document.querySelector<HTMLDivElement>('#countdown')!;
   const before = document.querySelector<HTMLDivElement>('#before')!;
-  applyStyle(countdown);
+  applyStyle();
 
   const totalSeconds = parseSeconds();
   const beforeText = getUrlParam('before');
